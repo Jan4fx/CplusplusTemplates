@@ -2,8 +2,10 @@ C++ Code That Can Easily Be Integrated Into Your Programs
 
 -FILES-
 helloWorld.cpp ~ prints "Hello, World!" to the console
-factorialIterative.cpp ~ Calculates the factorial of user prompt using iterative approach (*special compile* -> g++ -DRUN_MAIN factorialIterative.cpp -o factorialIterative)
-testFactorialIterative.cpp ~ Test File based off of hard coded prompts (*special compile* -> g++ factorialIterative.cpp testFactorialIterative.cpp -o TestFactorialIterative)
+factorialIterative.cpp ~ Calculates the factorial of user prompt using iterative approach 
+                        (*special compile* -> g++ -DRUN_MAIN factorialIterative.cpp -o factorialIterative)
+testFactorialIterative.cpp ~ Test File based off of hard coded prompts 
+                        (*special compile* -> g++ factorialIterative.cpp testFactorialIterative.cpp -o TestFactorialIterative)
 factorialRecursive.cpp ~ Calculates the factorial of user prompt using recursive approach 
 storeName.cpp ~ Stores user prompted name into name.txt
 greetName.cpp ~ Checks to see if name.txt is empty if so will call storeName, afterwards will greet the user's name
