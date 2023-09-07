@@ -1,0 +1,14 @@
+Sorting Algorithms
+
+DONE Bogo Sort: An inefficient sorting algorithm that randomly permutes the array until it is sorted. Mostly used for educational purposes.
+DONE Bubble Sort: Simple but inefficient for large datasets. It repeatedly swaps adjacent elements that are in the wrong order.
+
+Selection Sort: Selects the minimum element from the unsorted part of the list and swaps it with the first element in the unsorted part.
+Insertion Sort: Builds a sorted array one item at a time by comparing each item with the rest of the array and inserting it at the correct position.
+Quick Sort: A divide-and-conquer algorithm that works by partitioning an array into two smaller arrays and then recursively sorting them.
+Merge Sort: Another divide-and-conquer algorithm that divides the unsorted list into n sub-lists, sorts them, and then merges them to produce new sorted lists.
+Heap Sort: Builds a binary heap and uses it to sort the array.
+Radix Sort: Sorts integers by processing individual digits.
+Bucket Sort: Distributes the elements of an array into a number of buckets and then sorts the buckets individually.
+Counting Sort: Counts the occurrences of each element and uses this information to place each element in its correct position.
+

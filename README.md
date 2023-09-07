@@ -10,7 +10,16 @@ factorialIterative.cpp ~ Calculates the factorial of user prompt using iterative
 testFactorialIterative.cpp ~ Test File based off of hard coded prompts 
 
                         (*special compile* -> g++ factorialIterative.cpp testFactorialIterative.cpp -o TestFactorialIterative)
+
+bogoSort.cpp ~ Sorts array at average complexitity of O((n+1)!) and worst case of infinity/infinitum
+                        (*special compile* -> g++ -DRUN_MAIN bogoSort.cpp -o bogoSort)
                         
+bubbleSort.cpp ~ Sorts array at average/worst case complexity of O(n^2) best case of O(n)
+                        (*special compile* -> g++ -DRUN_MAIN bubbleSort.cpp -o bubbleSort)
+
+testSort.cpp ~ Randomly generates array and then tests bogoSort and bubbleSort for efficiency
+                        (*special compile* -> g++ testSort.cpp bogoSort.cpp bubbleSort.cpp -o testSort)
+               
 factorialRecursive.cpp ~ Calculates the factorial of user prompt using recursive approach 
 
 storeName.cpp ~ Stores user prompted name into name.txt
@@ -22,13 +31,16 @@ greetName.cpp ~ Checks to see if name.txt is empty if so will call storeName, af
 
 g++ nameOfFile.cpp -o nameOfFile
 
+
 -COMPILE ALL- (will not compile files in subdirectories) (will not work with special compiles)
 
 for %i in (*.cpp) do clang++ "%i" -o "%~ni"
 
+
 -Executing-
 
 nameOfFile
+
 
 -INSTALLATIONS-
 
