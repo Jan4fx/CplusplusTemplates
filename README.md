@@ -17,8 +17,11 @@ bogoSort.cpp ~ Sorts array at average complexitity of O((n+1)!) and worst case o
 bubbleSort.cpp ~ Sorts array at average/worst case complexity of O(n^2) best case of O(n)
                         (*special compile* -> g++ -DRUN_MAIN bubbleSort.cpp -o bubbleSort)
 
+countingSort.cpp ~ Sorts array based on keys between a specific range time complexity of O(n+k)
+                        (*special compile* -> g++ -DRUN_MAIN countingSort.cpp -o countingSort)
+
 testSort.cpp ~ Randomly generates array and then tests bogoSort and bubbleSort for efficiency
-                        (*special compile* -> g++ testSort.cpp bogoSort.cpp bubbleSort.cpp -o testSort)
+                        (*special compile* -> g++ testSort.cpp bogoSort.cpp bubbleSort.cpp countingSort.cpp -o testSort)
                
 factorialRecursive.cpp ~ Calculates the factorial of user prompt using recursive approach 
 
